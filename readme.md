@@ -4,7 +4,7 @@ Enhance your Ruby project with time-based ranges.
 
 ## Installation
 
-Install the `time_range` gem and require it in your project.
+Install the `ruby-time_range` gem and require it in your project.
 
 ```shell
 gem install ruby-time_range
