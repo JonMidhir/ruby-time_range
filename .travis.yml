@@ -1,4 +1,25 @@
 language: ruby
+
 rvm:
+  - 1.9.3
+  - 2.0.0
+  - 2.1.0
   - 2.2.0
+  - 2.3.1
+
+gemfile:
+  - Gemfile
+
+sudo: false
+
+script: bundle exec rspec
+
+branches:
+  only:
+    - master
+
+addons:
+  code_climate:
+    repo_token: d33c175799057036b7add3a00cc118cf4c41c4cec6516290727577c3e0c2814f
+
 before_install: gem install bundler -v 1.11.2
