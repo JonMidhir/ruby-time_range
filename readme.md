@@ -16,6 +16,25 @@ or include the gem in your Gemfile and `bundle install`.
 gem 'ruby-time_range'
 ```
 
+## Usage
+
+```ruby
+require 'time_range'
+```
+
+TimeRanges can be easily created by calling `#to_time_range` on any normal Range of Times.
+
+```ruby
+(Time.now .. (Time.now + 60)).to_time_range
+```
+
+or use the constructor:
+
+```ruby
+TimeRange.new(Time.now, (Time.now + 60))
+```
+
+
 ## About
 
 `TimeRange` extends the regular `Range` with useful methods that apply to time-based objects. Where appropriate, it reimplements `Range` methods as they should apply to Time-based ranges.
@@ -30,12 +49,6 @@ gem 'ruby-time_range'
 - `TimeRange#dates` Returns a range of dates in the TimeRange.
 
 Existing Range methods; such as `#max`, `#min`, `#cover?`, `#==`, etc, are still available, having been reimplemented where appropriate to maintain consistency in a temporal context.
-
-TimeRanges can be easily created by calling `#to_time_range` on any normal Range of Times.
-
-```ruby
-  (Time.now .. (Time.now + 60)).to_time_range
-```
 
 For full API documentation see the [rubydocs](http://www.rubydoc.info/gems/ruby-time_range/0.1.0/TimeRange).
 
