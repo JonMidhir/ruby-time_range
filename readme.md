@@ -1,4 +1,8 @@
-## TimeRange
+# TimeRange
+
+[![Build Status](https://travis-ci.org/JonMidhir/ruby-time_range.svg?branch=master)](https://travis-ci.org/JonMidhir/ruby-time_range)
+[![Code Climate](https://codeclimate.com/github/JonMidhir/ruby-time_range/badges/gpa.svg)](https://codeclimate.com/github/JonMidhir/ruby-time_range)
+[![Test Coverage](https://codeclimate.com/github/JonMidhir/ruby-time_range/badges/coverage.svg)](https://codeclimate.com/github/JonMidhir/ruby-time_range/coverage)
 
 Enhance your Ruby project with time-based ranges.
 
