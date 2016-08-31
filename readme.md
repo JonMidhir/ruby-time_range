@@ -37,7 +37,7 @@ TimeRanges can be easily created by calling `#to_time_range` on any normal Range
   (Time.now .. (Time.now + 60)).to_time_range
 ```
 
-For full API documentation see the YARD docs.
+For full API documentation see the [rubydocs](http://www.rubydoc.info/gems/ruby-time_range/0.1.0/TimeRange).
 
 ## Contributing
 - Fork and clone the project.
